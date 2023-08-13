@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Karuna</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>                
+                <li><a href="#contact">Contact</a></li>                
+            </ul>
+            
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">TanishQ</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills"onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>                
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Images/karuna.png" alt="Karuna">
+        </div>
+        <div class="section__text">
+            <p class="section_text__p1">Hello, I'm</p>
+            <h1 class="title">Karuna</h1>
+            <p class="section__text__p2">Versatile Person</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://bit.ly/karuna_cv')">Download CV</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact me </button>
+            </div>
+            <div id="socials-container">
+                <img src="./Images/linkedin2.png" alt="Linkedin"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/karuna-Katta-b7a879287'">
+
+                <img src="./Images/github.png" alt="Github"
+                class="icon" onclick="location.href='https://github.com/Karuna2003'">
+
+                <img src="./Images/insta3.png" alt="Instagram"
+                class="icon" onclick="location.href='https://www.instagram.com/___.karuna/?hl=en'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h2 class="title">About Me</h2>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Images/karuna2.jpg" alt="About-pic"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>I'm Karuna, currently pursuing my 3/4 Bachelors of Technology in Information Technology at <a href="vrsiddhartha.ac.in" class="about-links">@VRSEC</a>. <br><br>I am a passionate and skilled coder with a deep love for programming and problem-solving. technical skills of various programming languages and frameworks
+                    <br><br>
+                    I enjoy Participating in coding contests.
+                    When I'm not busy,Spending time with friends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h2 class="title">Skills</h2>
+        <div class="skill-details-containers">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/html-1.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Images/javascript-1.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Images/css-3.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-containers">
+                    <h2 class="skills-sub-title">Programming languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/c-1.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>C</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Images/c.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+
+                        <article>
+                            <img src="./Images/python-4.svg" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Images/java.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="skills-sub-title">Industrial</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/excel.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Excel</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./Images/word.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Word</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+
+                        <article>
+                            <img src="./Images/ppt.png" alt="skill-icon" class="icon"/>
+                            <div>
+                                <h3>Power Point</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <p class="section__text__p1">To Know My</p>
+        <h2 class="title">Achievements</h2>
+        <div class="achievements-container">
+            <div class="details-containers-2">
+                <h2 class="skills-sub-title-2">2nd Prize</h2>
+                <div class="article-container-2">
+                    <article>
+                        <img src="./Images/trophy.jpg" alt="prize" class="icon"/>
+                        <div>
+                            <h3>Dance Competition</h3>
+                            <p><center>Secured 2nd place in dance competition which was held in VRSEC.</center></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Available</p>
+        <h2 class="title">Contact</h2>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Images/mail.jpg" alt="mail" class="icon contact-icon"/>
+                <p>karunakatta22@gmail.com</p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Images/contact.jpg" alt="contact" class="icon contact-icon"/>
+                <p>+91 9505750595</p>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>                
+                    <li><a href="#contact">Contact</a></li>                
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Karuna. All Rights Reserved.</p>
+    </footer>
+
+</body>  
+</html>
